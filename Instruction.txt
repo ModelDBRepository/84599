@@ -1,0 +1,75 @@
+Instruction.txt for the LDS model by Akira Takashima, Ryou Hikosaka and Masakazu Takahata.
+
+Here are some suggestive instructions for successfully using the LDS model simulation on the GENESIS simulator.
+
+When the simulation is first on, two windows will appear. The left window is the main control panel which performs several types of experiments. The right window shows experimental results: the membrane potential and conductances of a compartment that you have chosen on the left window.
+
+Followings are description of the items in simulation program.
+
+1. Buttons in the main control panel
+
+RESET	Resets the simulation and clears the graphical output
+	(in overlay mode, see below).
+
+STOP	Stops the current simulation.
+
+QUIT	Quits the simulation (and GENESIS).
+
+STEP	Initiates the simulation and performs a simulation run for the time as indicated 
+	in the right side of the STEP button (in msec).
+
+dt	Sets a simulation time step as indicated in the right side of the dt button (in 
+	msec). 0.01 msec time step as the default is accurate and thus desirbale.
+
+Change Synaptic Inputs		Hitting this button shows you the Popup menu about the 
+					synaptic inputs.
+
+2. Buttons and toggles in the Synaptic Input Popup menu
+
+DISMISS		Hides the Popup menu.
+
+Synaptic Input OFF/ON toggle	Toggles between Synaptic inputs OFF (default) and 
+					ON.
+single_input		Sets synaptic input to a dendritic compartment indicated by red color and 
+			all other inputs are removed.
+
+5_inputs		Sets synaptic input to five dendritic compartment indicated by red color 
+			and all other inputs are removed.
+
+10_inputs		Sets synaptic input to ten dendritic compartment indicated by red color 
+			and all other inputs are removed.
+
+21_inputs		Sets synaptic input to twenty-one dendritic compartment indicated by red 
+			color and all other inputs are removed.
+
+94_inputs		Sets synaptic input to ninety-four dendritic compartment indicated by red 
+			color and all other inputs are removed.
+
+Remove All Synaptic Inputs		Removes all synaptic inputs and sets Synaptic Input 
+						OFF toggle.
+
+3. Toggles in the LDS
+
+No Graph/Graph		Toggles between hide (default)/show the graph output window.
+
+No Electrodes/Electrodes		If you wish to see compartments where you plot their 
+					membrane potentials, activate this toggle and activate 
+					"Add plot" button on the xgraphs, which shows you 
+					electrodes which are penetrated into the compartments.
+
+4. Buttons and toggles in the xgraph
+
+Clear graph		Clears xgraph's plot and remove electrodes on the LDS panel.
+
+Add plot		Use this button to add plot(s) to the xgraph. This must be done as no plot 
+			is pre-selected. You can either click on any part of the LDS cell to select 
+			or type the compartment number in the dialog box.
+
+Overlay off/on		When a reset is performed, normally all plots are cleared. When 
+				overlay is on, they are saved so that you can compare plots from 
+				different runs of simulation.
+
+
+
+Correspondence e-mail address is: takashim@sci.hokudai.ac.jp (Akira Takashima)
+
