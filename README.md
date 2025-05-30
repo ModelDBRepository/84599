@@ -28,18 +28,18 @@ Details on the 3-D morphometry of the interneuron are described in:
 
 4. In order to run the simulation, you will need these:
 
-  1) a fast computer (Pentium 3 or higher) with enough memory (at least 256 Mb)
-  2) Linux 2.X installed correctly
-  3) GENESIS 2.2 or later installed correctly
-  4) a graphical display with at least a resolution of 1024 x 768
+    (1) a fast computer (Pentium 3 or higher) with enough memory (at least 256 Mb)  
+    (2) Linux 2.X installed correctly  
+    (3) GENESIS 2.2 or later installed correctly  
+    (4) a graphical display with at least a resolution of 1024 x 768
 
 5. In order to test the simulation, follow these steps:
 
-  1) Make room on the display for the graphical output: move your shell window to the bottom of your display.
-  2) Change to the directory where the TEST.g scripts reside.
-  3) At the shell prompt, type "genesis". If you have not set PATH to the directory where the genesis command resides, type the whole PATH to that directory.
-  4) If you can get started GENESIS simulator, then type "TEST". After a short period, two windows will appear: "control" window for setting parameters and "LDS" window for displaying the calculation result.
-  5) To further explore the simulation, please read "Instruction.txt".
+    (1) Make room on the display for the graphical output: move your shell window to the bottom of your display.  
+    (2) Change to the directory where the TEST.g scripts reside.  
+    (3) At the shell prompt, type "genesis". If you have not set PATH to the directory where the genesis command resides, type the whole PATH to that directory.  
+    (4) If you can get started GENESIS simulator, then type "TEST". After a short period, two windows will appear: "control" window for setting parameters and "LDS" window for displaying the calculation result.  
+    (5) To further explore the simulation, please read "Instruction.txt".  
 
 6. Correspondence e-mail address is: takashim@sci.hokudai.ac.jp (Akira Takashima)
 
